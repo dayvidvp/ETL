@@ -1,0 +1,64 @@
+STRPRDDBSQL01:
+        host: strprddbsql01
+        database: customerportal
+        user: none
+        password: none
+        port: 1433
+        enviroment: PRD
+        connectiontype: MSSQL
+STRDVPDBSQL01:
+        host: strdvpdbsql01
+        database: customerportal_DVP
+        user: none
+        password: none
+        port: 1433
+        enviroment: DEV
+        connectiontype: MSSQL
+KPRDCSA01:
+        host: KPRDCSA01
+        database: SPMiLocalOperational
+        user: postgres
+        password: EiSeesa4
+        enviroment: PRD
+        port: 5432
+        connectiontype: POSTGRESSQL
+KPRDCSA02:
+        host: KPRDCSA02
+        database: SPMiLocalOperational
+        user: postgres
+        password: nyouGaH
+        enviroment: PRD
+        port: 5432
+        connectiontype: POSTGRESSQL
+KPRDCSA03:
+        host: KPRDCSA03
+        database: SPMiLocalOperational
+        user: postgres
+        password: nyouGaH
+        enviroment: PRD
+        port: 5432
+        connectiontype: POSTGRESSQL
+STRQASCSA01:
+        host: STRQASCSA01
+        database: SPMiLocalOperational
+        user: postgres
+        password: EiSeesa4
+        enviroment: QAS
+        port: 5432
+        connectiontype: POSTGRESSQL
+STRQASCSA02:
+        host: STRQASCSA02
+        database: SPMiLocalOperational
+        user: postgres
+        password: nyouGaH
+        enviroment: QAS
+        port: 5432
+        connectiontype: POSTGRESSQL
+STRQASCSA03:
+        host: STRQASCSA03
+        database: SPMiLocalOperational
+        user: postgres
+        password: nyouGaH
+        enviroment: QAS
+        port: 5432
+        connectiontype: POSTGRESSQL
